@@ -24,7 +24,7 @@ function App() {
 						<NewQuotes></NewQuotes>
 					</Route>
 					{/* switch component works like a regular switch: if no case is matched, it defaults to the last "case" (route in our case)
-					by setting path to * we tell React we want all other paths other than the ones declared above should lead to what is inside this Route */}
+					by setting path to * we tell React that all other paths other than the ones declared above should lead to what is inside this Route */}
 					<Route path="*">
 						<NotFound></NotFound>
 					</Route>
