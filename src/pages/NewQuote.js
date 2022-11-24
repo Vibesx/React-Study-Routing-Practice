@@ -5,7 +5,7 @@ import { addQuote } from "../lib/api";
 
 import QuoteForm from "../components/quotes/QuoteForm";
 
-const NewQuotes = () => {
+const NewQuote = () => {
 	const { sendRequest, status } = useHttp(addQuote);
 	const history = useHistory();
 
@@ -29,4 +29,4 @@ const NewQuotes = () => {
 	);
 };
 
-export default NewQuotes;
+export default NewQuote;
